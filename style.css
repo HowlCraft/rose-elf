@@ -134,7 +134,7 @@ h4 {
 #elf-image {
     width: 300px;
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    left: 100px;
+    bottom: 300px;
     overflow: hidden;
 }
