@@ -44,7 +44,7 @@ body {
     overflow: 'hidden';
 }
 h1 {
-    color: var(--gold);
+    color: var(--purple);
     font-variant: small-caps;
     padding: 20px;
 }
@@ -82,11 +82,11 @@ a, a:hover {
     flex-wrap: wrap;
     flex-direction: column;
     min-width: 300px;
-    border: solid 2px var(--purple);
+    border: solid 2px var(--gold);
     border-radius: 10px;
     padding-bottom: 10px;
     overflow: hidden;
-    min-height: 0;
+    min-height: 420;
 }
 .column > div {
     display: flex;
@@ -97,7 +97,7 @@ a, a:hover {
     padding: 10px 25px 10px 25px;
     border: solid 0px black;
     border-radius: 10px;
-    background-color: var(--grey);
+    background-color: var(--surface-1);
     margin: 5px 5px 0px 5px;
     text-align: center;
     overflow:hidden;
@@ -114,7 +114,7 @@ a, a:hover {
 }
 
 h3 {
-    color: var(--gold);
+    color: var(--purple);
     text-transform: uppercase;
     font-variant: small-caps;
 }
@@ -126,7 +126,7 @@ h4 {
     left: 3px;
     top: 7px;
     writing-mode: vertical-rl;
-    color: var(--red);
+    color: var(--surface-4);
     text-transform: uppercase;
     font-size: 17px;
 }
