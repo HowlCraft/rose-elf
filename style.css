@@ -44,7 +44,7 @@ body {
     overflow: 'hidden';
 }
 h1 {
-    color: var(--red);
+    color: var(--purple);
     font-variant: small-caps;
     padding: 20px;
 }
@@ -69,12 +69,11 @@ a, a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: center;
-    height: 60%;
-    width: 60%;
+    height: 80%;
     overflow: 'hidden';
     margin: 0px;
     flex: 1;
-    margin-left: 40%;
+    margin-left: 0;
     margin-right: 0;
 }
 
@@ -115,7 +114,7 @@ a, a:hover {
 }
 
 h3 {
-    color: var(--gold);
+    color: var(--purple);
     text-transform: uppercase;
     font-variant: small-caps;
 }
@@ -127,15 +126,15 @@ h4 {
     left: 3px;
     top: 7px;
     writing-mode: vertical-rl;
-    color: var(--red);
+    color: var(--surface-4);
     text-transform: uppercase;
     font-size: 17px;
 }
 
 #elf-image {
-    width: 500px;
+    width: 300px;
     position: absolute;
-    left: 200px;
-    bottom: 300px;
+    left: 0px;
+    bottom: 0px;
     overflow: hidden;
 }
