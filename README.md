@@ -1,2 +1,3 @@
 # fire-turtle
-Yet another try at a startpage
+
+This is a startpage made to go with the Rosé Pine palette (https://rosepinetheme.com/palette)
