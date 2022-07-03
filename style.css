@@ -44,7 +44,7 @@ body {
     overflow: 'hidden';
 }
 h1 {
-    color: var(--purple);
+    color: var(--gold);
     font-variant: small-caps;
     padding: 20px;
 }
@@ -97,7 +97,7 @@ a, a:hover {
     padding: 10px 25px 10px 25px;
     border: solid 0px black;
     border-radius: 10px;
-    background-color: var(--surface-1);
+    background-color: var(--grey);
     margin: 5px 5px 0px 5px;
     text-align: center;
     overflow:hidden;
@@ -114,7 +114,7 @@ a, a:hover {
 }
 
 h3 {
-    color: var(--purple);
+    color: var(--gold);
     text-transform: uppercase;
     font-variant: small-caps;
 }
@@ -126,7 +126,7 @@ h4 {
     left: 3px;
     top: 7px;
     writing-mode: vertical-rl;
-    color: var(--surface-4);
+    color: var(--red);
     text-transform: uppercase;
     font-size: 17px;
 }
