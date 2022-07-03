@@ -1,11 +1,11 @@
 :root {
-    --foreground: #CAD3F5;
-    --background: #24273A;
-    --selection-foreground: #24273A;
-    --selection-background: #F4DBD6;
+    --foreground:#ebbcba;
+    --background: #191724;
+    --selection-foreground: #9ccfd8;
+    --selection-background: #ebbcba;
     --url-color: #B7BDF8;
     
-    --inactive-border-color: #8F97B7;
+    --inactive-border-color: #ebbcba;
     
     --bell-border-color: #EE99A0;
     
@@ -15,20 +15,20 @@
     --inactive-tab-background: #1E2030;
     --tab-bar-background: #181926;
    
-    --surface-1: #FFFFFF11;
-    --surface-2: #FFFFFF22;
-    --surface-3: #FFFFFF33;
+    --surface-1: #26233a;
+    --surface-2: #6e6a86;
+    --surface-3: #6e6a86;
     --surface-4: #FFFFFF44;
-    --black: #484C64;
-    --purple: #C6A0F6;
-    --red: #ED8796;
-    --green: #A6DA95;
+    --black: #191724;
+    --purple: #c4a7e7;
+    --red: #eb6f92;
+    --green: #9ccfd8;
     --yellow: #EED49F;
-    --blue: #8AADF4;
-    --magenta: #F5BDE6;
-    --cyan: #8BD5CA;
-    --white: #CAD3F5;
-    --grey: #A1AACB;
+    --gold: #f6c177;
+    --magenta: #ebbcba;
+    --cyan: #31748f;
+    --white: #e0def4;
+    --grey:#f6c177;
 }
 html {
     height: 100%;
@@ -44,7 +44,7 @@ body {
     overflow: 'hidden';
 }
 h1 {
-    color: var(--purple);
+    color: var(--red);
     font-variant: small-caps;
     padding: 20px;
 }
@@ -69,11 +69,12 @@ a, a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: center;
-    height: 80%;
+    height: 60%;
+    width: 60%;
     overflow: 'hidden';
     margin: 0px;
     flex: 1;
-    margin-left: 0;
+    margin-left: 40%;
     margin-right: 0;
 }
 
@@ -114,7 +115,7 @@ a, a:hover {
 }
 
 h3 {
-    color: var(--purple);
+    color: var(--gold);
     text-transform: uppercase;
     font-variant: small-caps;
 }
@@ -126,15 +127,15 @@ h4 {
     left: 3px;
     top: 7px;
     writing-mode: vertical-rl;
-    color: var(--surface-4);
+    color: var(--red);
     text-transform: uppercase;
     font-size: 17px;
 }
 
-#ram-image {
-    width: 300px;
+#elf-image {
+    width: 500px;
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    left: 200px;
+    bottom: 300px;
     overflow: hidden;
 }
