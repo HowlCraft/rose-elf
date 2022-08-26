@@ -86,7 +86,7 @@ a, a:hover {
     border-radius: 10px;
     padding-bottom: 10px;
     overflow: hidden;
-    min-height: 420;
+    min-height: 520;
 }
 .column > div {
     display: flex;
